@@ -7,7 +7,7 @@ const user = {
         console.log(this)
     }
 }
-// user["getUserDetails"]()
+// user.getUserDetails();
 
 function UserDetails(username, logInCount, isLoggedIn){
     this.username = username,
