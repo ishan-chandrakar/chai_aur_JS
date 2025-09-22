@@ -23,8 +23,10 @@ const teachingSupport = {
 }
 const TASupport = {
     makeAssignment: "Make JS assignment",
-    fullTime: true
+    fullTime: true,
+    __proto__: teachingSupport
 }
 
 Object.setPrototypeOf(Teacher, teachingSupport)
 console.log(teachingSupport.makeVideo);
+console.log(TASupport.isAvailable);
